@@ -19,8 +19,8 @@ body {
 }
 
 .content-section {
-  padding-top: 4.5rem;
-  padding-bottom: 4.5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
 }
 
 .content-section-heading h2 {
@@ -379,5 +379,12 @@ a:hover, a:focus, a:active {
 @media all and (max-width: 767px) {
   .navbar.fixed-top {
     position: relative !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .content-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }

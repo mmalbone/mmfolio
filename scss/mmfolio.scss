@@ -3,3 +3,10 @@
      position:relative!important;
    }
 }
+@media all and (max-width:767px) {
+// Content Section
+.content-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+}
